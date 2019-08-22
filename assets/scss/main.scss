@@ -4,22 +4,5 @@ body {
   background-color: #FFD1D4;
 }
 
-.wrap{
-  width: 100%;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 50px 0;
-}
-
 // Components
 @import "components/building";

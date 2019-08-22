@@ -2,6 +2,29 @@
   margin: 0 auto;
 
   .wall{
-
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
   } // end wall
 } // end house
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  color: #FFF;
+  background-color: #5995DA;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  border: 1px solid #fff;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}

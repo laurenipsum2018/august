@@ -5,25 +5,34 @@ body {
   background-color: #FFD1D4;
 }
 
-.wrap {
-  width: 100%;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 50px 0;
-}
-
 #🏡 {
   margin: 0 auto;
+}
+#🏡 .wall {
+  width: 100px;
+  height: 100px;
+  background: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  color: #FFF;
+  background-color: #5995DA;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  border: 1px solid #fff;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */
