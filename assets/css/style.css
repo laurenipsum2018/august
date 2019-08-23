@@ -10,40 +10,6 @@ body {
   margin-top: 14%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  color: black;
-  background-color: #FEF8EE;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-.container .parent {
-  width: 800px;
-  height: 100px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.container .parent .item {
-  width: 100px;
-  height: 100px;
-  background: #C8E8DE;
-}
-.container .parent .rhs {
-  display: flex;
-  justify-content: flex-end;
-}
-.container .parent .rhs .gap {
-  margin: 0 0 0 1rem;
-}
-
 .building-container {
   display: flex;
   justify-content: center;
@@ -129,11 +95,13 @@ body {
 .plant .petals {
   z-index: 2;
 }
-.plant .petals .petal-1 {
+.plant .petals .petal {
   width: 16px;
   height: 16px;
   background: #FCDF7D;
   border-radius: 0 80%;
+}
+.plant .petals .petal-1 {
   margin-top: 10px;
 }
 .plant .flower-mid {

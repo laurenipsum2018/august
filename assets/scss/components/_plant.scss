@@ -2,11 +2,13 @@
   margin: 90% 0 0 20%;
   .petals {
     z-index: 2;
-    .petal-1 {
+    .petal {
       width: 16px;
       height: 16px;
       background: $yellow;
       border-radius: 0 80%;
+    }
+    .petal-1 {
       margin-top: 10px;
     }
   }
