@@ -14,12 +14,20 @@
       height: 250px;
       background-color: $cream;
       .plant {
-        width: 16px;
-        height: 16px;
-        background: $green;
-        border-radius: 0 80%;
-        transform: rotate(-3deg);
-        margin: 90% 0 0 20%;
+        .leaf {
+          width: 16px;
+          height: 16px;
+          background: $green;
+          border-radius: 0 80%;
+        }
+        .leaf-1 {
+          transform: rotate(-3deg);
+          margin: 90% 0 0 20%;
+        }
+        .leaf-2 {
+          transform: rotate(100deg);
+          margin: -15% 0 0 40%;
+        }
       }
     }
     @media only screen and (max-width: 1200px) {
@@ -31,6 +39,9 @@
       .window {
         width: 80px;
         height: 150px;
+        .leaf-2 {
+          margin-left: 50%;
+        }
       }
     }
     @media only screen and (max-width: 768px) {
