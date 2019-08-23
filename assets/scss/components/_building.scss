@@ -5,8 +5,8 @@
 }
 
 .container {
-  color: $white;
-  background-color: #5995DA;
+  color: black;
+  background-color: $cream;
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -17,16 +17,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     .item {
       width: 100px;
       height: 100px;
-      background: black;
+      background: $mint;
     }
     .rhs {
       display: flex;
       justify-content: flex-end;
-      .item-3 {
-        margin: 0 0 0 3rem;
+      .gap {
+        margin: 0 0 0 1rem;
       } // end item-3
     } // end rhs
   } // end parent

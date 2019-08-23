@@ -12,8 +12,8 @@ body {
 }
 
 .container {
-  color: #FFF;
-  background-color: #5995DA;
+  color: black;
+  background-color: #FEF8EE;
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -25,18 +25,19 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 .container .parent .item {
   width: 100px;
   height: 100px;
-  background: black;
+  background: #C8E8DE;
 }
 .container .parent .rhs {
   display: flex;
   justify-content: flex-end;
 }
-.container .parent .rhs .item-3 {
-  margin: 0 0 0 3rem;
+.container .parent .rhs .gap {
+  margin: 0 0 0 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
