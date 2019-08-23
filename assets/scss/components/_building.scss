@@ -13,8 +13,10 @@
   .parent {
     border: 1px solid $white;
     width: 800px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     .rhs {
       display: flex;
       justify-content: flex-end;

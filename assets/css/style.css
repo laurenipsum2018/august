@@ -21,8 +21,10 @@ body {
 .container .parent {
   border: 1px solid #FFF;
   width: 800px;
+  height: 100px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .container .parent .rhs {
   display: flex;
