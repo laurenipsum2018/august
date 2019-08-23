@@ -47,7 +47,7 @@ body {
 }
 .building-container .building-parent {
   width: 1000px;
-  height: 100px;
+  height: 300px;
   background-color: #FFF;
   display: flex;
   justify-content: space-around;
@@ -62,16 +62,19 @@ body {
 @media only screen and (max-width: 1024px) {
   .building-container .building-parent {
     max-width: 700px;
+    height: 400px;
   }
 }
 @media only screen and (max-width: 768px) {
   .building-container .building-parent {
     max-width: 500px;
+    height: 450px;
   }
 }
 @media only screen and (max-width: 640px) {
   .building-container .building-parent {
     max-width: 300px;
+    height: 500px;
   }
 }
 
