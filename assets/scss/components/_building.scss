@@ -14,6 +14,14 @@
       height: 250px;
       background-color: $cream;
       .plant {
+        margin: 90% 0 0 10%;
+        .stem {
+          width: 4px;
+          height: 60px;
+          background: $green;
+          border-radius: 10px;
+          margin: 0 0 0 16%;
+        }
         .leaf {
           width: 16px;
           height: 16px;
@@ -22,11 +30,10 @@
         }
         .leaf-1 {
           transform: rotate(-3deg);
-          margin: 90% 0 0 20%;
         }
         .leaf-2 {
           transform: rotate(100deg);
-          margin: -15% 0 0 40%;
+          margin: -50% 0 0 23%;
         }
       }
     }

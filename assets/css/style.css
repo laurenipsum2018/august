@@ -62,6 +62,16 @@ body {
   height: 250px;
   background-color: #FEF8EE;
 }
+.building-container .building-parent .window .plant {
+  margin: 90% 0 0 10%;
+}
+.building-container .building-parent .window .plant .stem {
+  width: 4px;
+  height: 60px;
+  background: #A3EE9C;
+  border-radius: 10px;
+  margin: 0 0 0 16%;
+}
 .building-container .building-parent .window .plant .leaf {
   width: 16px;
   height: 16px;
@@ -70,11 +80,10 @@ body {
 }
 .building-container .building-parent .window .plant .leaf-1 {
   transform: rotate(-3deg);
-  margin: 90% 0 0 20%;
 }
 .building-container .building-parent .window .plant .leaf-2 {
   transform: rotate(100deg);
-  margin: -15% 0 0 40%;
+  margin: -50% 0 0 23%;
 }
 @media only screen and (max-width: 1200px) {
   .building-container .building-parent {
