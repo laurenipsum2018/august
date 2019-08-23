@@ -10,11 +10,17 @@
   padding: 20px 0;
   display: flex;
   justify-content: center;
-}
-
-.parent {
-  border: 1px solid $white;
-  width: 800px;
-  display: flex;
-  justify-content: space-around;
-}
+  .parent {
+    border: 1px solid $white;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    .rhs {
+      display: flex;
+      justify-content: flex-end;
+      .item-3 {
+        margin: 0 0 0 1rem;
+      }
+    } // end rhs
+  } // end parent
+} // end container

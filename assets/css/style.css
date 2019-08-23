@@ -17,12 +17,18 @@ body {
   display: flex;
   justify-content: center;
 }
-
-.parent {
+.container .parent {
   border: 1px solid #FFF;
   width: 800px;
   display: flex;
   justify-content: space-around;
+}
+.container .parent .rhs {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .parent .rhs .item-3 {
+  margin: 0 0 0 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
