@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #FFD1D4;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -28,7 +29,7 @@ body {
   justify-content: flex-end;
 }
 .container .parent .rhs .item-3 {
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
