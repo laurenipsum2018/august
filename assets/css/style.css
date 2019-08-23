@@ -42,12 +42,32 @@ body {
 .roof-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 .roof-container .roof {
-  width: 100px;
-  height: 100px;
-  background-color: #FF87BD;
+  border-style: solid;
+  border-width: 0 500px 110px 500px;
+  border-color: transparent transparent #FF87BD transparent;
+}
+@media only screen and (max-width: 1200px) {
+  .roof-container .roof {
+    border-width: 0 350px 110px 350px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .roof-container .roof {
+    border-width: 0 300px 110px 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .roof-container .roof {
+    border-width: 0 250px 110px 250px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .roof-container .roof {
+    border-width: 0 150px 110px 150px;
+  }
 }
 
 .building-container {
@@ -55,7 +75,7 @@ body {
   justify-content: center;
 }
 .building-container .building-parent {
-  width: 1200px;
+  width: 1000px;
   height: 300px;
   background-color: #C8E8DE;
   display: flex;
