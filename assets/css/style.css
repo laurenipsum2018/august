@@ -80,10 +80,11 @@ body {
 }
 .building-container .building-parent .window .plant .leaf-1 {
   transform: rotate(-3deg);
+  margin: -50% 0 0 0;
 }
 .building-container .building-parent .window .plant .leaf-2 {
   transform: rotate(100deg);
-  margin: -50% 0 0 23%;
+  margin: 0 0 0 23%;
 }
 @media only screen and (max-width: 1200px) {
   .building-container .building-parent {
