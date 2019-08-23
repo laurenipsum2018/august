@@ -1,11 +1,22 @@
 .plant {
-  margin: 60% 0 0 20%;
+  margin: 90% 0 0 20%;
+  .petals {
+    z-index: 2;
+    .petal-1 {
+      width: 16px;
+      height: 16px;
+      background: $yellow;
+      border-radius: 0 80%;
+      margin-top: 10px;
+    }
+  }
   .flower-mid {
     width: 20px;
     height: 20px;
     border-radius: 100%;
     background-color: $lightblack;
     margin: 0 0 0 8%;
+    z-index: 1;
   }
   .stem {
     width: 4px;
@@ -30,6 +41,15 @@
   }
   .leaf-3 {
     transform: rotate(-3deg);
-    // margin: 0 0 0 23%;
+  }
+  @media only screen and (max-width: 1200px) {
+    margin: 60% 0 0 20%; // fixes plant stem position
+  }
+  @media only screen and (max-width: 1024px) {
+    margin: 40% 0 0 20%; // fixes plant stem position
+  }
+  @media only screen and (max-width: 768px) {
+  }
+  @media only screen and (max-width: 640px) {
   }
 }
