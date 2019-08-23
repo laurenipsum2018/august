@@ -5,19 +5,39 @@
     .petal {
       width: 16px;
       height: 16px;
-      background: $yellow;
+      background: $purple;
       border-radius: 0 80%;
     }
     .petal-1 {
-      margin-top: 10px;
+      margin-top: 20%;
+    }
+    .petal-2 {
+      transform: rotate(10deg);
+      margin-top: 10%;
+    }
+    .petal-3 {
+      transform: rotate(90deg);
+      display: none;
+    }
+    .petal-4 {
+      transform: rotate(120deg);
+      display: none
+    }
+    .petal-5 {
+      transform: rotate(180deg);
+      display: none
+    }
+    .petal-6 {
+      transform: rotate(200deg);
+      display: none
     }
   }
   .flower-mid {
-    width: 20px;
-    height: 20px;
+    width: 14px;
+    height: 14px;
     border-radius: 100%;
-    background-color: $lightblack;
-    margin: 0 0 0 8%;
+    background-color: $yellow;
+    margin: 0 0 0 12%;
     z-index: 1;
   }
   .stem {
