@@ -19,12 +19,17 @@ body {
   justify-content: center;
 }
 .container .parent {
-  border: 1px solid #FFF;
+  border: 2px solid #FFF;
   width: 800px;
   height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.container .parent .item {
+  width: 100px;
+  height: 100px;
+  background: black;
 }
 .container .parent .rhs {
   display: flex;

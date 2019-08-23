@@ -11,12 +11,17 @@
   display: flex;
   justify-content: center;
   .parent {
-    border: 1px solid $white;
+    border: 2px solid $white;
     width: 800px;
     height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    .item {
+      width: 100px;
+      height: 100px;
+      background: black;
+    }
     .rhs {
       display: flex;
       justify-content: flex-end;
