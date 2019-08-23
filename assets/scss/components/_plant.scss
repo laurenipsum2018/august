@@ -1,0 +1,35 @@
+.plant {
+  margin: 60% 0 0 20%;
+  .flower-mid {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: $lightblack;
+    margin: 0 0 0 8%;
+  }
+  .stem {
+    width: 4px;
+    height: 80px;
+    background: $green;
+    border-radius: 10px;
+    margin: 0 0 0 18%;
+  }
+  .leaf {
+    width: 16px;
+    height: 16px;
+    background: $green;
+    border-radius: 0 80%;
+  }
+  .leaf-1 {
+    transform: rotate(-3deg);
+    margin: -74% 0 0 0;
+  }
+  .leaf-2 {
+    transform: rotate(100deg);
+    margin: 0 0 0 23%;
+  }
+  .leaf-3 {
+    transform: rotate(-3deg);
+    // margin: 0 0 0 23%;
+  }
+}

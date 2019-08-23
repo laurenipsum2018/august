@@ -62,30 +62,6 @@ body {
   height: 250px;
   background-color: #FEF8EE;
 }
-.building-container .building-parent .window .plant {
-  margin: 90% 0 0 10%;
-}
-.building-container .building-parent .window .plant .stem {
-  width: 4px;
-  height: 60px;
-  background: #A3EE9C;
-  border-radius: 10px;
-  margin: 0 0 0 18%;
-}
-.building-container .building-parent .window .plant .leaf {
-  width: 16px;
-  height: 16px;
-  background: #A3EE9C;
-  border-radius: 0 80%;
-}
-.building-container .building-parent .window .plant .leaf-1 {
-  transform: rotate(-3deg);
-  margin: -54% 0 0 0;
-}
-.building-container .building-parent .window .plant .leaf-2 {
-  transform: rotate(100deg);
-  margin: 0 0 0 23%;
-}
 @media only screen and (max-width: 1200px) {
   .building-container .building-parent {
     max-width: 700px;
@@ -145,6 +121,41 @@ body {
   .roof-container .roof {
     border-width: 0 150px 110px 150px;
   }
+}
+
+.plant {
+  margin: 60% 0 0 20%;
+}
+.plant .flower-mid {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #515151;
+  margin: 0 0 0 8%;
+}
+.plant .stem {
+  width: 4px;
+  height: 80px;
+  background: #A3EE9C;
+  border-radius: 10px;
+  margin: 0 0 0 18%;
+}
+.plant .leaf {
+  width: 16px;
+  height: 16px;
+  background: #A3EE9C;
+  border-radius: 0 80%;
+}
+.plant .leaf-1 {
+  transform: rotate(-3deg);
+  margin: -74% 0 0 0;
+}
+.plant .leaf-2 {
+  transform: rotate(100deg);
+  margin: 0 0 0 23%;
+}
+.plant .leaf-3 {
+  transform: rotate(-3deg);
 }
 
 /*# sourceMappingURL=style.css.map */
