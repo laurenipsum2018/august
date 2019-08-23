@@ -19,7 +19,6 @@ body {
   justify-content: center;
 }
 .container .parent {
-  border: 2px solid #FFF;
   width: 800px;
   height: 100px;
   display: flex;
@@ -38,6 +37,42 @@ body {
 }
 .container .parent .rhs .gap {
   margin: 0 0 0 1rem;
+}
+
+.building-container {
+  margin-top: 5rem;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.building-container .building-parent {
+  width: 1000px;
+  height: 100px;
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 1200px) {
+  .building-container .building-parent {
+    max-width: 900px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .building-container .building-parent {
+    max-width: 700px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .building-container .building-parent {
+    max-width: 500px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .building-container .building-parent {
+    max-width: 300px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
